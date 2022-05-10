@@ -19,6 +19,6 @@ module ActiveFormModel
 
     # NOTE: too many side effects if it is enabled
     # examples: form names, translations
-    # delegate :name, to: :superclass
+    delegate :name, to: :superclass
   end
 end
